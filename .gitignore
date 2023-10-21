@@ -1,0 +1,7 @@
+/vendor
+/composer.lock
+/screenshots
+
+/run.php
+/tmp.php
+/params.json

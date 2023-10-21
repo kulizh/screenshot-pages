@@ -1,0 +1,28 @@
+{
+    "name": "kulizh/screenshot-pages",
+    "version": "1.0.1",
+    "require": {
+        "chrome-php/chrome": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "ScreenshotPages\\": "src/"
+        }
+    },
+    "bin": [
+        "capture"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikita Kulizhnikov",
+            "email": "mail@kulizh.ru",
+            "role": "Developer"
+        },
+        {
+            "name": "Nick Qurle",
+            "email": "nick@qurle.net",
+            "role": "Author"
+        }
+    ]
+}
