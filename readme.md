@@ -49,14 +49,14 @@ class HardcodeParameters implements ParametersInterface
     	return [
     		'https://www.wikipedia.org/'
     	];
-	}
+    }
 
     public function getViewports(): array
     {
     	return [
     		'1920x1080'
     	];
-	}
+    }
 }
 
 $capture = new Capture();
