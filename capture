@@ -1,11 +1,11 @@
 #!/usr/bin/env php
 <?php declare(strict_types=1);
 
-require_once dirname(__FILE__) . '/vendor/autoload.php';
+include $_composer_autoload_path ?? __DIR__ . '/../vendor/autoload.php';
 
-use ScreenshotPages\Capture;
-use ScreenshotPages\Helpers\Cli;
-use ScreenshotPages\Helpers\Parameters\JSONParameters;
+use \ScreenshotPages\Capture;
+use \ScreenshotPages\Helpers\Cli;
+use \ScreenshotPages\Helpers\Parameters\JSONParameters;
 
 if (empty($argv[1]))
 {

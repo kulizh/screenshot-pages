@@ -90,3 +90,10 @@ $capture->verbose = true; // To see cli output
 
 $capture->make();
 ```
+
+## Usage from command line
+Since version 1.1.0 you may use library with verbose mode from command line:
+```shell
+vendor/bin/capture ./params.json
+```
+... where `./params.json` is relative path to JSON configuration file.
